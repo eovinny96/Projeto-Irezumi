@@ -1,0 +1,300 @@
+/*Usar para todas as paginas de tatuagem ou curiosidades */
+
+
+@import url(
+    https://fonts.google.com/specimen/Roboto?preview.size=16
+);
+
+html {
+    font-family: 'Roboto';
+    font-style: normal; 
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    line-height: 1.8rem;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3em ;
+}
+
+h3{
+    font-size: 2.4em;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black; 
+}
+
+.header-title{
+    margin-top: .23em;
+    margin-left: 9rem ;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu  {
+    display: flex;
+    list-style: none;
+    gap: 5em;
+    margin-right: 1em;
+}
+
+.menu a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    margin-right: .5em;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.wrappercontainer {
+    margin-top: 1em;
+}
+
+.herobanner {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    gap:20rem;
+}
+
+.hero-header {
+    margin: 6em;
+}
+.hero-title{
+    letter-spacing: .2px;
+    margin-bottom: 3.5rem;
+    line-height: 1;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 1.8rem;
+    background-color: red;
+    color: white;
+    padding: 1.2rem 3.6rem;
+    border-radius: .5em;
+    display: inline-block;
+}
+
+.ykz {
+    padding-right: 2.9em;
+    width: 90em;
+    padding-bottom: 1em;
+}
+ 
+.container{
+    max-width: 60em;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.header-div {
+    margin-bottom: 2em;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black; 
+}
+
+.header-title{
+    margin-top: .23em;
+    margin-left: 9rem ;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu  {
+    display: flex;
+    list-style: none;
+    gap: 5em;
+    margin-right: 1em;
+}
+
+.menu a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    margin-right: .5em;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.container{
+    max-width: 60em;
+    width: 100%;
+margin: auto;
+}
+
+.name {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.main-title, .subtitles, .middle-title, .litte-title, .subtitle {
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1em;
+}
+
+.main-title{
+    font-size: 4.5em;
+}
+.main-text {
+    font-size: 1.25em;
+}
+
+.about-text {
+    font-size: 1.25em;
+}
+
+.middle-title {
+    font-size: 2.3em;
+}
+
+.litte-title {
+    margin-top: .8em;
+    font-size: .92em;
+}
+.img, .img2, .img3{
+    display: block;
+    margin: auto;
+}
+
+.img2 {
+    width: 30.875rem;
+    height: auto;
+}
+
+.img2 {
+    width: 30.875rem;
+    height: auto;
+}
+
+.img3  {
+    margin-top: 8em;
+    width: 50rem;
+    height: 34rem;
+}
+
+.img4, .imagemlados {
+    width: 450px;
+    height: 500px;
+    gap: 1em;
+    margin-bottom: 4em;
+}
+
+
+.container-foto {
+    display: flex;
+    gap: 4em;
+}
+
+.container-foto2 {
+    display: flex;
+    gap: 4em;
+
+}
+.imagemlado {
+    display: flex;
+    }
+    
+ 
+
+    .imagemlados{
+        display: flex;
+        width: 600px;
+        height: 600px;
+    }
+    
+
+.img-circle {
+    width: 19.375em;
+    height: 19.375em;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    margin-top: 4em;
+}
+.entlist {
+    list-style-type: decimal;
+    margin-bottom: 2.5em;
+}
+
+.oni{
+    font-size: 1.25em;
+}
+
+.oni li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.mantra {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+.referencias {
+    text-align: center;
+}
+
+.ref-title{
+    font-size: 1.5em;
+}
+
+.text-ref a {
+    color: rgba(59, 59, 238, 0.815);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.text-ref a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+.wrappercontainer5 {
+    text-align: center;
+    background-color: red;
+}
+ 
+
+/* usar esse codigo para futuras paginas */
