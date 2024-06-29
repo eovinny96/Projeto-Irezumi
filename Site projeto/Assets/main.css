@@ -30,9 +30,10 @@ h2{
     font-size: 3em ;
 }
 
-h3{
+h3,h4{
     font-size: 2.4em;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -336,7 +337,11 @@ h3{
     display: flex;
     }
     
- 
+ .clan,.punish {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+ }
+
 
     .imagemlados{
         display: flex;
@@ -435,4 +440,5 @@ h3{
     text-decoration: underline;
     color: blue;
 }
+
 
