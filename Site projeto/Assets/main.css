@@ -20,6 +20,8 @@ body {
     height: 100vh;
     background-color: black;
     color: white;
+    max-height: 100vh;
+    min-width: 100vh;
 }
 
 h1 {
@@ -34,6 +36,9 @@ h3,h4{
     font-size: 2.4em;
 }
 
+h6 {
+    font-size: .7rem;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -42,9 +47,12 @@ h3,h4{
 
 .header-title{
     margin-top: .30em;
-    margin-left: 9rem ;
+    margin-left: 5rem ;
     font-size: 3em;
     color: white;
+    line-height: 1;
+    letter-spacing: 1px;
+    
     
 }
 
@@ -63,7 +71,7 @@ h3,h4{
 }
 
 .menu a {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: white;
     margin-right: .5em;
@@ -87,21 +95,21 @@ h3,h4{
 
 }
 
-.wrappercontainer3 {
+ /* .wrappercontainer3 { 
     display: flex;
     font-size: 1.2rem;
 }
+*/
 
-
-.herobanner {
+.herobanner { 
     display: flex;
     justify-content:space-between ;
     align-items: center;
     gap:20rem;
-}
+} 
 
 .hero-header {
-    margin: 6em;
+    margin-left: 3em;
     
 }
 .hero-title{
@@ -112,7 +120,7 @@ h3,h4{
     
 }
 
-.btn  {
+.btn{
     font-size: 1.8rem;
     background-color: red;
     color: white;
@@ -123,18 +131,17 @@ h3,h4{
 }
 
 .section-btn {
-    font-size: 1.8rem;
+     font-size: 1.8rem; 
     background-color: red;
     color: white;
-    padding: 1.2rem 3.6rem;
+    padding: .5rem 7rem ;
     border-radius: .5em;
-    text-decoration: none;
-    display: inline-block;
-    margin-right: 4em;
+    text-decoration: none; 
 }
 
 .btn-sec {
-    padding-right: 70.4rem;
+    margin-right: 70.4rem;
+    margin-bottom: 7em;
 }
 
 
@@ -153,8 +160,8 @@ h3,h4{
 
 .ykz2 {
     padding-left: 2em;
-    width: 50%;
-    height: 90%;
+    /* width: 150em; */
+    /* height: 30rem; */
 }
 
 .section-title {
@@ -252,7 +259,8 @@ h3,h4{
 .wrappercontainer5 {
     text-align: center;
     background-color: red;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    margin-top: 5.9em;
 }
 
 /* usar esse codigo para futuras paginas  */
@@ -440,5 +448,4 @@ h3,h4{
     text-decoration: underline;
     color: blue;
 }
-
 
